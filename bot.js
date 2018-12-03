@@ -9,15 +9,15 @@ client.user.setPresence({
   status: 'dnd',
   game: { 
      type: 0,
-     name: 'هاي يوتيوووب',
-     details: `هاي يوتيوب`,
+     name: 'You will die',
+     details: `Fuck You`,
      url: 'http://twitch.tv/M7md_Salih',
-     state: `هاي يوتيوب`,
-    application_id: '377479790195769345',
+     state: `I'm Alone`,
+    application_id: '350547695569600522',
      assets: {
-        small_image: `377480550207717376`,
+        small_image: `515716252099149829`,
         small_text: 'هاي يوتيوب',
-        large_image: `377480353259978752`,
+        large_image: `517118333817192468`,
         large_text: `هاي يوتيوب` }
 
   }
@@ -25,4 +25,4 @@ client.user.setPresence({
 });
 اقولها
 
-client.login("MzU3MjkwMjYxNDA5NDMxNTUy.DV4gXw.uUb0cO18ipmgbmsgb-6niE39vBs");
+client.login(process.env.TOKEN4);// لا تغير فيها شيء
