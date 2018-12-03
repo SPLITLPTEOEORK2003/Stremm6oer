@@ -16,13 +16,12 @@ client.user.setPresence({
     application_id: '350547695569600522',
      assets: {
         small_image: `515716252099149829`,
-        small_text: 'هاي يوتيوب',
+        small_text: 'how ?',
         large_image: `517118333817192468`,
-        large_text: `هاي يوتيوب` }
+        large_text: `Be hind you` }
 
   }
     });
 });
-اقولها
 
 client.login(process.env.TOKEN4);// لا تغير فيها شيء
